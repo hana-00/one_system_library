@@ -1,0 +1,21 @@
+button - 3개의 버튼으로 각각 파란, 초록, 빨강 색 LED 켜기
+circle - 델타로봇이 z 위치 90으로 원 그리기 (점점 X2로 빨라짐, 원 4번)
+display - LCD display
+encoder - 델타로봇에 로터리 엔코더 쓰는 법 + LCD에 display
+externalMotor - 외부 추가 모터로 DC모터 쓰는 법
+function - LED display 3초 카운트 다운하면서 로봇 3초 대기시키기, 원하는 시간동안 LED 깜박이기
+gripper - 전자석식 그리퍼 열고 닫기 
+helloworld - LCD display hello world (setup 에서 코드 끝냄)
+Kinematics- 작동 범위 지정(원통형으로 높이와 지름), level이 높을수록 더 넓고 긴 반경, level 4까지 있음 
+lightbasic - LED 색 및 세기
+lightblink - LED 깜박이게 하기. 함수화로 깜박 주기 설정 가능
+lightfade - LED 점점 빛 줄어들게 하기
+menu - 메뉴 선택시 각각 다른 LED 색 빛나게 하기(5가지)
+movebasic - 좌표로 델타로봇 움직이게 하기(2가지 방법 1.좌표 직접 입력, 2.변수화된 좌표 입력)
+pickandplace - 엔드이펙터의 좌표와 움직이는 속도 지정 가능. 그리퍼를 이용해 픽앤 플레이스 기능
+remote - 블루투스(리모컨 버튼)와 USB(엔코더) 연결 및 동작. USB모드는 회로를 수정해야함.
+            :어떤 블루투스인지는 robot.power.bluetoothOn();, robot.remote.control(); 봐야할 듯 
+screen - LCD 스크린 출력 예시들
+speedControl - 움직일 좌표와 속도 한번에 설정가능, 속도는 4단계.
+workingSpace - Kinematics 작동범위 최대 반경 원형으로 이동하는 코드
+
